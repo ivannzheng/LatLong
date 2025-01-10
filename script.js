@@ -1,4 +1,4 @@
-import { geocodeKey } from "./config";
+const geocodeKey = '594b35e679ed486a84ee6d4a190dd99f';
 
 async function fetchLatLng() {
   try {
