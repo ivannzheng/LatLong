@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Longitude & Latitude Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+<div id="longlat-app">
+  <h1> Lat Long Finder </h1>
+  <p>enter any city to find its exact lat and long</p>
+  <p></p>
+  <div id="input-field">
+    <input placeholder="Enter a city..." id="city-input">
+    <button onclick="fetchLatLng()">Find</button>
+  </div>
+  <div id="display">
+    <div class="coordinate-box">
+      <h2>Latitude</h2>
+      <p id="latitude-value">--</p>
+    </div>
+    <div class="coordinate-box">
+      <h2>Longitude</h2>
+      <p id="longitude-value">--</p>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
